@@ -1,0 +1,263 @@
+.invoice-format{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    background-color: white;
+    border: 2px solid white;
+    padding: 50px;
+    
+}
+
+.invoice-header-image{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    height: 40%;
+    width: 70%;
+}
+
+
+.invoice-image{
+    width: 50%;
+    height: 10%;
+    align-self: flex-end;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+
+.invoice-header-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    width: -webkit-fill-available;
+    margin-top: 3%;
+}
+
+.invoice-company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+
+.invoice-text{
+    font-size: 24px;
+    /* color: lightseagreen; */
+    font-weight: 500;
+
+}
+
+.invoice-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+
+.invoice-source-company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.invoice-header{
+    padding: 5px 8px;
+    white-space: nowrap;
+    background-color: white;
+    font-size: small;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+.invoice-header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice-table-definition{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+.invoice-table-row{
+    border-bottom: 1px solid;
+}
+
+
+.invoice-company-no{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    width: -webkit-fill-available;
+}
+tr:hover {
+    background-color: white;
+    }
+.invoice-font{
+    font-weight: 600;
+    color: slategray;
+    font-family: system-ui;
+    font-size: x-large;
+    padding-bottom: 35px;
+}
+
+
+.invoice-company-details{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: baseline;
+    /* width: -webkit-fill-available; */
+
+}
+.invoice-no{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    align-items: flex-start;
+}
+.company-name{
+    font-weight: 500;
+}
+.company-tagline{
+    font-style: italic;
+    font-size: small;
+
+}
+
+.company-address{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+
+
+.invoice-to-for{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    font-size: small;
+  
+}
+
+.invoice-for{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+
+.resource-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.invoice-project-details{
+    padding:5px;
+}
+
+
+.invoice-main-data{
+    padding:5px;
+}
+.invoice-ending{
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-ending-content{
+    align-self: flex-start;
+    font-size: small;
+}
+.invoice-ending-thankyou{
+    align-self:center;
+    font-weight: 700;
+    font-size: small;
+
+}
+
+.unorder-resource-data{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: none;
+    background-color: transparent;
+}
+
+
+
+.project-content{
+   
+    width:100%
+}
+
+
+
+.invoice-divide-columns{
+    border-right-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.invoice-project-details{
+    border-right-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.invoice-project-total{
+    border-right-style: none;
+}
+
+.resources-view{
+    display: flex;
+    padding: 5px 5px;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.resource-data-view{
+    border-right-style:none;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.resource-data{
+    border-right-style:none;
+    padding: 3px 5px;
+
+}
+
+/* table, td, th {
+    border: 1px solid black;
+  } */

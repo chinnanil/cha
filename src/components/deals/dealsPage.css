@@ -1,0 +1,29 @@
+.deals-nav{
+    background-color: rgb(107, 104, 104);
+  overflow: hidden;
+  width:100%;
+    
+}
+
+.deals-nav,.deal-box{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 5px 5px 16px;
+    text-decoration: none;
+    font-size: 15px;
+   height:35px;
+    
+}
+.deal-box{
+    cursor: pointer;
+}
+.deals-nav, .deal-box:hover{
+   
+  color: red;
+}
+
+.deals-nav, .deal-box:active{
+   
+    color: white;
+}

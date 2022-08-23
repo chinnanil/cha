@@ -1,0 +1,70 @@
+
+  .deal-create {
+    width: 550px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    
+    border-radius: 8px;
+    
+    padding-bottom: 30px;
+    
+    }
+
+
+  .deal-input-container {
+    width: 70%;
+    display: inline-table;
+    }
+    
+    .deal-input-label {
+    float: left;
+    height: 20px;
+    padding: 5px 0px 5px 0px;
+    }
+    
+    .deal-inputs {
+    float: right;
+    }
+    
+    .deal-input-select {
+    height: 35px;
+    width: 195px;
+    float: right;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    display: -ms-inline-grid;
+    }
+
+
+.deal-addresource-container{
+  width: 70%; 
+  display: inline-table;
+}
+
+.deal-addresource-label{
+  display: flex;
+  align-items: flex-end;
+}
+
+.rr-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 7px;
+}
+
+
+  .resource-rate-component{
+    display: inline-flex;
+    align-items: center;
+  }
+   
+  .resource-icon{
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+  }
